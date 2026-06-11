@@ -6,19 +6,12 @@ A modular, multi-file Streamlit dashboard for rapid, experiment-driven feature e
 
 ```
 feature_engineering_tool/
-<<<<<<< HEAD
 ├── app.py                      ← Streamlit UI (tabs, layout, widgets)
 ├── engine.py                   ← All ML & business logic (no Streamlit imports)
 ├── load_sample_datasets.py     ← Built-in sample datasets for quick experimentation
 ├── state.py                    ← Session-state initialisation & reset helpers
 ├── style.py                    ← Centralized UI styling and custom CSS definitions
 ├── requirements.txt            ← Python dependencies
-=======
-├── app.py            ← Streamlit UI (tabs, layout, widgets)
-├── engine.py         ← All ML & business logic (no Streamlit imports)
-├── state.py          ← Session-state initialisation & reset helpers
-├── requirements.txt  ← Python dependencies
->>>>>>> 5ebcbc9c35363a302ffdbd63fc0dacf8f664a4fc
 └── README.md
 ```
 
